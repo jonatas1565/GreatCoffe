@@ -36,13 +36,13 @@ nav li {
   list-style: none;
   margin-left: 20px;
   color: var(--button);
-  font-family: "Manrope";
+  font-family: 'Manrope';
   margin-top: 2%;
 }
 a {
   color: var(--text-color);
   text-decoration: none;
-  font-family: "Manrope";
+  font-family: 'Manrope';
   font-weight: 400;
   font-size: 19px;
 }
@@ -69,7 +69,7 @@ ul {
 button {
   background: var(--backgrond);
   color: var(--text-color);
-  font-family: "Manrope";
+  font-family: 'Manrope';
   border: solid 1px;
   border-radius: 6px;
   width: 12vw;
@@ -113,7 +113,24 @@ h1, h2 {
 .blur-2{
     transform: rotate(180deg);
 }
+.copo{
+  position: relative;
+  right: 30%;
+  width:95vw;
+  height:70vh;
+}
 @media screen and (max-width: 768px) {
+  button{
+display: none;
+  }
+  .copo{
+    right: 0;
+    width: 40vw;
+    height: 30vh;
+  }
+  .blur-1, .blur-2{
+    display: none;
+  }
   .nav-list {
     position: absolute;
     top: 8vh;
